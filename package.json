@@ -1,0 +1,12 @@
+{
+  "name": "nxtbiz",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Spec-driven AI business operations automation platform.",
+  "scripts": {
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed"
+  }
+}
